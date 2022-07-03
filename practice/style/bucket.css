@@ -1,0 +1,23 @@
+
+#bucket{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,300px);
+    /* border: 1px solid black; */
+    height: 1600px;
+    gap: 20px;
+    margin-top: 80px;
+  }
+  #bucket>div{
+    /* border: 1px solid black; */
+    text-align: center;
+    
+  }
+  button{
+   cursor: pointer;
+    margin-right: 5px;
+  }
+  img{
+    height: 180px;
+    width: 200px;
+  }
