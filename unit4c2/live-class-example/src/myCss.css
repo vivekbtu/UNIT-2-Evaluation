@@ -1,0 +1,33 @@
+
+.App{
+    text-align: center;
+    font-size: large;
+}
+
+.App-header{
+    color: red;
+}
+.container{
+    width: 40%;
+    height: 700px;
+    border: solid 2px red;
+    
+}
+.listitem{
+    width: 90%;
+    height: 70px;
+    border: solid 2px green;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+}
+.btn{
+    margin-bottom: 10px;
+
+}
+.listitem>div{
+    display: flex;
+    margin: auto;
+    grid-template-columns: auto;
+}

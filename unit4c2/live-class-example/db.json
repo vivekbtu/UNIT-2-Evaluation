@@ -1,0 +1,30 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "LEARN POST",
+      "status": false,
+      "id": 2
+    },
+    {
+      "title": "REACT",
+      "status": true,
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "task": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
